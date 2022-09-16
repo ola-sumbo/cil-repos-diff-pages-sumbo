@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: #f2f2f2;
+  font-family: poppins;
+  margin: 0;
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+
+.navbar span {
+  color: #007AF5;
+}
+
+.navbar.container {
+  display: grid;
+  grid-template-columns: 180px auto;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  position: unset;
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: 1em 1em 1em;
+}
+
+/* https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github */ /*# sourceMappingURL=main.css.map *//*# sourceMappingURL=main.css.map */
